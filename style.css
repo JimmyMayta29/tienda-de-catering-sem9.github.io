@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: arial, tahoma, verdana, sans-serif;
+    
+}
+
+/* HEADER */
+
+header {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navegacion li a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+.contacto {
+    border: 0px;
+    background-color: #ff0000;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+    font-weight: 700;
+}
+
+.container-portada {
+    background-image: url('./images/buffet-1.jpg');
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.portada-text  {
+    text-align: center;
+    font-size: 50px;
+    color: #ffff00;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+
+/* QUINES SOMOS */
+
+.quienes-somos {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.quienes-somos h2 {
+    text-align: center;
+    margin: 50px 0 20px;
+}
+
+.quienes {
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0 40px;
+}
+
+.buffet {
+    width: 530px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* FOOD TABLE */
+
+.container-food-table {
+    background-image: url(./images/food-table.jpg);
+    background-repeat: no-repeat; /* para que la imagen no se repita */
+    background-size: cover; /* para ajustar la imagen al fondo */
+    background-position: center; 
+    width: 100%;
+    height: 50vw;  
+    position: relative;
+}
+
+.text-food {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    font-size: 40px; 
+    
+}
+
+/* NUESTROS PRODUCTOS */
+
+.productos h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.num-servicios {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.num-servicios article {
+    border: 1px solid rgb(198, 147, 147);
+}
+
+.num-servicios img {
+    width: 300px;
+}
+
+.num-servicios p {
+    text-align: center;
+    padding: 10px;
+}
+
+/* PAQUETES DE CATERING */
+
+.paquetes h2   {
+    text-align: center;
+    margin: 0 auto;
+    margin: 80px 0 15px;
+}
+
+.paquetes p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paquetes-cat {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.paquetes-cat article {
+    border: 1px solid rgb(192, 192, 192);
+    width: 300px;
+    text-align: center;
+}
+
+.paquetes-cat article h3 {
+    margin: 20px;
+}
+
+.paquetes-cat article p {
+    padding: 15px;
+    background-color: rgb(230, 230, 230);
+    
+}
+
+.paquetes-cat li {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.paquetes-cat img {
+    width: 20px;
+    height: 10px;
+    padding-right: 5px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.footer h2 {
+    text-align: center;
+    
+    
+}
+
+.divisor {
+    margin: 0 auto;
+    width: 90px;
+    color: red;
+}
+
+.contacto1 {
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.contacto1 p {
+    line-height: 2;
+}
+
+.forms {
+    display: flex;
+    gap: 20px;
+    width: 1200px;
+    text-align: left;
+}
+
+.formularios {
+    margin: 0 auto;
+
+}
+
+.forms input {
+    width: 386px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    height: 100px;
+}
+
+.comentario {
+    text-align: left;
+}
+
+button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-bottom: 15px ;
+}
